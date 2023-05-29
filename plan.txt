@@ -1,0 +1,18 @@
+Features: 
+    JUMP:
+        we will use space button or up arrow
+        we should raise the space at the bottom, "bottom" pixels
+    GRAVITY:
+        we should lower the space between the dino and earth, lower "bottom" pixels
+    Generate Cactus:
+        Create a new html element with img tag
+        Place the cactus at the right-side
+    Cactus Run:
+        We should lower the space between left-side and the Cactuses
+    Points: 
+        Every 1/10 of a second you get 1 point
+        Keep track of the High Score
+    Check:
+        Check for collision
+            When the space between the dino and the cactus is 0
+            and the dino is not jumping

@@ -1,0 +1,46 @@
+.page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  padding: 5em;
+  overflow-x: hidden;
+}
+.points {
+  display: flex;
+  justify-content: flex-end;
+}
+.points h1 {
+  margin: 0 10px;
+}
+
+.game {
+  height: 30vh;
+  position: relative;
+}
+
+.dino {
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.cactus {
+  width: 50px;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.earth {
+  margin-bottom: -55px;
+  position: absolute;
+  bottom: 0;
+}
+
+img {
+  width: 120%;
+  height: 120%;
+}
